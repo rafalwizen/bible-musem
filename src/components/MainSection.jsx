@@ -18,8 +18,8 @@ export const MainSection = ({ scrollToCards }) => {
     return (
         <div className={"main-container"} ref={mainSectionRef}>
             <div className={"text-content"}>
-                <h1>IPSUM LOREM</h1>
-                <p>Neque porro est zmyślonym tekstorem</p>
+                <h1>SUPER WYSTAWA</h1>
+                <p>WYSTAWA KTÓRA MOŻE PRZYJECHAĆ DO CIEBIE</p>
             </div>
             <div className={"main-btns"}>
                 <Button

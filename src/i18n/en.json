@@ -1,7 +1,7 @@
 {
   "navbar": {
     "home": "Home",
-    "about_me": "About Me",
+    "about_me": "About us",
     "gallery": "Gallery",
     "opinions": "Opinions",
     "offer": "Offer",
@@ -30,7 +30,6 @@
     "name": "Name",
     "email": "Email",
     "phone": "Phone",
-    "wedding_date": "Wedding date",
     "message": "Message",
     "send": "Send",
     "send_alert_success": "Message sent successfully",

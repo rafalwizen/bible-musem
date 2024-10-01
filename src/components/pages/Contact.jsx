@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import '../../App.css';
 import './Contact.css';
 import { useTranslation } from "react-i18next";
-import img1 from '../../../public/images/img-test-5-small.jpg';
+import img1 from '../../../public/images/main_photo.jpg';
 
 const Contact = () => {
     const { t } = useTranslation();
@@ -52,10 +52,6 @@ const Contact = () => {
                 <div className="form-group">
                     <label htmlFor="phone">{t('contact.phone')}:</label>
                     <input type="tel" id="phone" name="phone" required onChange={handleChange} />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="weddingDate">{t('contact.wedding_date')}:</label>
-                    <input type="date" id="weddingDate" name="weddingDate" required onChange={handleChange} />
                 </div>
                 <div className="form-group">
                     <label htmlFor="message">{t('contact.message')}:</label>
