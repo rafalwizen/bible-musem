@@ -8,6 +8,7 @@ import About from "./components/pages/About.jsx";
 import GalleryContainer from "./components/pages/GalleryContainer.jsx";
 import Offer from "./components/pages/Offer.jsx";
 import Contact from "./components/pages/Contact.jsx";
+import GalleryWithModal from "./components/pages/galleries/with-modal/GalleryWithModal.jsx";
 
 function App() {
     return (
@@ -18,7 +19,8 @@ function App() {
                     <Routes>
                         <Route path={"/"} element={<Home />} />
                         <Route path={"/about"} element={<About />} />
-                        <Route path={"/gallery"} element={<GalleryContainer />} />
+                        {/*<Route path={"/gallery"} element={<GalleryContainer />} />*/}
+                        <Route path={"/gallery"} element={<GalleryWithModal />} />
                         <Route path={"/offer"} element={<Offer />} />
                         <Route path={"/contact"} element={<Contact />} />
                     </Routes>
