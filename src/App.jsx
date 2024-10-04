@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar.jsx";
 import Opinions from "./components/Opinions.jsx";
 import Home from "./components/pages/Home.jsx";
 import About from "./components/pages/About.jsx";
-import GalleryContainer from "./components/pages/GalleryContainer.jsx";
+import GalleryContainer from "./components/pages/galleries/with-dynamic-paths/GalleryContainer.jsx";
 import Offer from "./components/pages/Offer.jsx";
 import Contact from "./components/pages/Contact.jsx";
 import GalleryWithModal from "./components/pages/galleries/with-modal/GalleryWithModal.jsx";

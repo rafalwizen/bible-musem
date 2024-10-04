@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import Gallery from './Gallery';
-import GalleryThumbnail from './GalleryThumbnail';
-import '../../App.css';
+import Gallery from './Gallery.jsx';
+import GalleryThumbnail from './GalleryThumbnail.jsx';
+import '../../../../App.css';
 import './GalleryContainer.css';
 
 const GalleryContainer = () => {
