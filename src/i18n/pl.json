@@ -32,7 +32,9 @@
     "phone": "Telefon",
     "message": "Wiadomość",
     "send": "Wyślij",
-    "send_alert_success": "Wiadomość została pomyślnie wysłana",
-    "send_alert_error": "Wystąpił błąd, spróbuj ponownie"
+    "send_alert_success": "Wiadomość została wysłana! Dziękujemy!",
+    "send_alert_error": "Oppps! Coś się nam wysypało, spróbuj ponownie lub napisz do mnie maila. Dziękuję!",
+    "info": "Zapraszam do kontaktu przez formularz lub bezpośrednio na maila:",
+    "all_fields_required": "Proszę uzupełnij wszystkie pola"
   }
 }
